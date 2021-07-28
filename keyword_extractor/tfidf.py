@@ -1,6 +1,7 @@
 from gensim.models import TfidfModel
 from base import Base
 import jieba
+#
 class TFIDF(Base):
     def __init__(self,file_path,use_stop_word = True):
 
